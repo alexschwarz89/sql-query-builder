@@ -85,6 +85,8 @@ class GenericBuilder implements BuilderInterface
         'UNION ALL' => null,
     ];
 
+    public $prefixTables = true;
+
     /**
      * Creates writers.
      */
