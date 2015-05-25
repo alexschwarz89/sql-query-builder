@@ -86,6 +86,7 @@ class GenericBuilder implements BuilderInterface
     ];
 
     public $prefixTables = true;
+    public $wrapColumns  = true;
 
     /**
      * Creates writers.

@@ -78,6 +78,6 @@ class MySqlBuilder extends GenericBuilder
      */
     protected function wrapper($string, $char = '`')
     {
-        return $char.$string.$char;
+        return $this->wrapColumns ? $char.$string.$char : $string;
     }
 }
